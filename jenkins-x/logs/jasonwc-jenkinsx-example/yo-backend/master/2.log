@@ -1,0 +1,158 @@
+
+Showing logs for build [32mjasonwc-jenkinsx-example-yo-bac-nsbhb-2[0m stage [32mmeta-pipeline[0m and container [32mstep-credential-initializer-tdkkp[0m
+{"level":"warn","ts":1567547697.6547,"logger":"fallback-logger","caller":"logging/config.go:69","msg":"Fetch GitHub commit ID from kodata failed: \"ref: refs/heads/master\" is not a valid GitHub commit ID"}
+{"level":"info","ts":1567547697.6558604,"logger":"fallback-logger","caller":"creds-init/main.go:40","msg":"Credentials initialized."}
+
+Showing logs for build [32mjasonwc-jenkinsx-example-yo-bac-nsbhb-2[0m stage [32mmeta-pipeline[0m and container [32mstep-working-dir-initializer-2d87g[0m
+{"level":"warn","ts":1567547698.6698723,"logger":"fallback-logger","caller":"logging/config.go:69","msg":"Fetch GitHub commit ID from kodata failed: open /var/run/ko/HEAD: no such file or directory"}
+{"level":"info","ts":1567547698.6751566,"logger":"fallback-logger","caller":"bash/main.go:65","msg":"Successfully executed command \"mkdir -p /workspace/source\""}
+
+Showing logs for build [32mjasonwc-jenkinsx-example-yo-bac-nsbhb-2[0m stage [32mmeta-pipeline[0m and container [32mstep-place-tools[0m
+
+Showing logs for build [32mjasonwc-jenkinsx-example-yo-bac-nsbhb-2[0m stage [32mmeta-pipeline[0m and container [32mstep-git-source-meta-jasonwc-jenkinsx-example-y-btxsl[0m
+{"level":"warn","ts":1567547705.6949313,"logger":"fallback-logger","caller":"logging/config.go:69","msg":"Fetch GitHub commit ID from kodata failed: \"ref: refs/heads/master\" is not a valid GitHub commit ID"}
+{"level":"info","ts":1567547705.9024842,"logger":"fallback-logger","caller":"git/git.go:102","msg":"Successfully cloned https://github.com/jasonwc-jenkinsx-example/yo-backend.git @ 5d7bbd38a5570e611829edb0353640e16eb0a6cd in path /workspace/source"}
+
+Showing logs for build [32mjasonwc-jenkinsx-example-yo-bac-nsbhb-2[0m stage [32mmeta-pipeline[0m and container [32mstep-git-merge[0m
+Using SHAs from PULL_REFS=master:5d7bbd38a5570e611829edb0353640e16eb0a6cd
+WARNING: no SHAs to merge, falling back to initial cloned commit
+
+Showing logs for build [32mjasonwc-jenkinsx-example-yo-bac-nsbhb-2[0m stage [32mmeta-pipeline[0m and container [32mstep-merge-pull-refs[0m
+SKIP merge-pull-refs: Nothing to merge
+
+Showing logs for build [32mjasonwc-jenkinsx-example-yo-bac-nsbhb-2[0m stage [32mmeta-pipeline[0m and container [32mstep-create-effective-pipeline[0m
+Deleting and cloning the Jenkins X versions repo
+Cloning the Jenkins X versions repo https://github.com/jenkins-x/jenkins-x-versions.git with ref refs/heads/master to /builder/home/.**/jenkins-x-versions
+Effective pipeline written to jenkins-x-effective.yml
+
+Showing logs for build [32mjasonwc-jenkinsx-example-yo-bac-nsbhb-2[0m stage [32mmeta-pipeline[0m and container [32mstep-create-tekton-crds[0m
+running command: ** step next-version --use-git-tag-only --tag
+created new version: 0.0.2 and written to file: ./VERSION
+Updating chart version in charts/yo-backend/Chart.yaml to 0.0.2
+Updating repository in charts/yo-backend/values.yaml to 000360016411.dkr.ecr.us-west-2.amazonaws.com/jasonwc-jenkinsx-example/yo-backend
+Updating tag in charts/yo-backend/values.yaml to 0.0.2
+Tag v0.0.2 created and pushed to remote origin
+
+WARNING: failed to find secret kaniko-secret in namespace **: secrets "kaniko-secret" not found
+PipelineActivity for jasonwc-jenkinsx-example-yo-backend-master-2
+Applying changes 
+upserted PipelineResource jasonwc-jenkinsx-example-yo-bac for the git repository https://github.com/jasonwc-jenkinsx-example/yo-backend.git
+upserted Task jasonwc-jenkinsx-example-yo-bac-nsbhb-from-build-pack-2
+upserted Pipeline jasonwc-jenkinsx-example-yo-bac-nsbhb-2
+created PipelineRun jasonwc-jenkinsx-example-yo-bac-nsbhb-2
+created PipelineStructure jasonwc-jenkinsx-example-yo-bac-nsbhb-2
+
+Showing logs for build [32mjasonwc-jenkinsx-example-yo-bac-nsbhb-2[0m stage [32mfrom-build-pack[0m and container [32mstep-credential-initializer-lr7p4[0m
+{"level":"warn","ts":1567547713.2397614,"logger":"fallback-logger","caller":"logging/config.go:69","msg":"Fetch GitHub commit ID from kodata failed: \"ref: refs/heads/master\" is not a valid GitHub commit ID"}
+{"level":"info","ts":1567547713.2405472,"logger":"fallback-logger","caller":"creds-init/main.go:40","msg":"Credentials initialized."}
+
+Showing logs for build [32mjasonwc-jenkinsx-example-yo-bac-nsbhb-2[0m stage [32mfrom-build-pack[0m and container [32mstep-working-dir-initializer-4vzlw[0m
+{"level":"warn","ts":1567547714.2917042,"logger":"fallback-logger","caller":"logging/config.go:69","msg":"Fetch GitHub commit ID from kodata failed: open /var/run/ko/HEAD: no such file or directory"}
+{"level":"info","ts":1567547714.2925944,"logger":"fallback-logger","caller":"bash/main.go:65","msg":"Successfully executed command \"mkdir -p /workspace/source /workspace/source/charts/yo-backend\""}
+
+Showing logs for build [32mjasonwc-jenkinsx-example-yo-bac-nsbhb-2[0m stage [32mfrom-build-pack[0m and container [32mstep-place-tools[0m
+
+Showing logs for build [32mjasonwc-jenkinsx-example-yo-bac-nsbhb-2[0m stage [32mfrom-build-pack[0m and container [32mstep-git-source-jasonwc-jenkinsx-example-yo-bac-b8pl8[0m
+{"level":"warn","ts":1567547720.3357859,"logger":"fallback-logger","caller":"logging/config.go:69","msg":"Fetch GitHub commit ID from kodata failed: \"ref: refs/heads/master\" is not a valid GitHub commit ID"}
+{"level":"info","ts":1567547720.4827526,"logger":"fallback-logger","caller":"git/git.go:102","msg":"Successfully cloned https://github.com/jasonwc-jenkinsx-example/yo-backend.git @ v0.0.2 in path /workspace/source"}
+
+Showing logs for build [32mjasonwc-jenkinsx-example-yo-bac-nsbhb-2[0m stage [32mfrom-build-pack[0m and container [32mstep-git-merge[0m
+Using SHAs from PULL_REFS=master:5d7bbd38a5570e611829edb0353640e16eb0a6cd
+WARNING: no SHAs to merge, falling back to initial cloned commit
+
+Showing logs for build [32mjasonwc-jenkinsx-example-yo-bac-nsbhb-2[0m stage [32mfrom-build-pack[0m and container [32mstep-setup-jx-git-credentials[0m
+Generated Git credentials file /workspace/xdg_config/git/credentials
+
+Showing logs for build [32mjasonwc-jenkinsx-example-yo-bac-nsbhb-2[0m stage [32mfrom-build-pack[0m and container [32mstep-build-container-build[0m
+[36mINFO[0m[0000] Downloading base image ruby:2.6.3            
+[36mINFO[0m[0000] Error while retrieving image from cache: getting file info: stat /workspace/sha256:2afcffd1a8276d58ef7d2c6d440c83290831abc2d80772a7af720db9aca9cd2e: no such file or directory 
+[36mINFO[0m[0000] Downloading base image ruby:2.6.3            
+[36mINFO[0m[0000] Checking for cached layer 000360016411.dkr.ecr.us-west-2.amazonaws.com/todo/cache:b928723e4297addaca720c94a50b1f3a6d2647437e8b16bf486792f7c8332fd2... 
+[36mINFO[0m[0001] No cached layer found for cmd RUN mkdir /app 
+[36mINFO[0m[0001] Unpacking rootfs as cmd RUN mkdir /app requires it. 
+[36mINFO[0m[0014] Taking snapshot of full filesystem...        
+[36mINFO[0m[0019] RUN mkdir /app                               
+[36mINFO[0m[0019] cmd: /bin/sh                                 
+[36mINFO[0m[0019] args: [-c mkdir /app]                        
+[36mINFO[0m[0019] Taking snapshot of full filesystem...        
+[36mINFO[0m[0022] WORKDIR /app                                 
+[36mINFO[0m[0022] cmd: workdir                                 
+[36mINFO[0m[0022] Changed working directory to /app            
+[36mINFO[0m[0022] No files changed in this command, skipping snapshotting. 
+[36mINFO[0m[0022] Pushing layer 000360016411.dkr.ecr.us-west-2.amazonaws.com/todo/cache:b928723e4297addaca720c94a50b1f3a6d2647437e8b16bf486792f7c8332fd2 to cache now 
+[36mINFO[0m[0022] Using files from context: [/workspace/source/Gemfile /workspace/source/Gemfile.lock] 
+[36mINFO[0m[0022] ADD Gemfile Gemfile.lock /app/               
+[36mINFO[0m[0022] Taking snapshot of files...                  
+[36mINFO[0m[0022] RUN bundle install                           
+[36mINFO[0m[0022] cmd: /bin/sh                                 
+[36mINFO[0m[0022] args: [-c bundle install]                    
+Fetching gem metadata from https://rubygems.org/.........
+Fetching backports 3.15.0
+Installing backports 3.15.0
+Using bundler 1.17.2
+Fetching multi_json 1.13.1
+Installing multi_json 1.13.1
+Fetching mustermann 1.0.3
+Installing mustermann 1.0.3
+Fetching rack 2.0.7
+Installing rack 2.0.7
+Fetching rack-protection 2.0.5
+Installing rack-protection 2.0.5
+Fetching tilt 2.0.9
+Installing tilt 2.0.9
+Fetching sinatra 2.0.5
+Installing sinatra 2.0.5
+Fetching sinatra-contrib 2.0.5
+Installing sinatra-contrib 2.0.5
+Fetching sinatra-cross_origin 0.4.0
+Installing sinatra-cross_origin 0.4.0
+Bundle complete! 3 Gemfile dependencies, 10 gems now installed.
+Bundled gems are installed into `/usr/local/bundle`
+[36mINFO[0m[0025] Taking snapshot of full filesystem...        
+[36mINFO[0m[0029] Using files from context: [/workspace/source] 
+[36mINFO[0m[0029] ADD . /app                                   
+[36mINFO[0m[0029] Taking snapshot of files...                  
+[36mINFO[0m[0029] CMD ruby web.rb                              
+[36mINFO[0m[0029] No files changed in this command, skipping snapshotting. 
+[36mINFO[0m[0029] Pushing layer 000360016411.dkr.ecr.us-west-2.amazonaws.com/todo/cache:3097df1f5dbb3f05a8fb67677a62bb71cf951b286596b322f386d88d4398c77a to cache now 
+[33mWARN[0m[0030] error uploading layer to cache: failed to push to destination 000360016411.dkr.ecr.us-west-2.amazonaws.com/todo/cache:b928723e4297addaca720c94a50b1f3a6d2647437e8b16bf486792f7c8332fd2: NAME_UNKNOWN: The repository with name 'todo/cache' does not exist in the registry with id '000360016411' 
+2019/09/03 21:55:52 existing blob: sha256:4ae16bd4778367b46064f39554128dd2fda2803a5747fddeff74059f353391c9
+2019/09/03 21:55:52 existing blob: sha256:bbab4ec87ac4f89eaabdf68dddbd1dd930e3ad43bded38d761b89abf9389a893
+2019/09/03 21:55:52 existing blob: sha256:96465440c20877524189ae75d361dd29e5d0df330a8dac9427f972b429fe0159
+2019/09/03 21:55:52 existing blob: sha256:2ea1f7804402db2da64e84a26bd591f41667ad69cd7f2a2c6106d9bb04dde260
+2019/09/03 21:55:52 existing blob: sha256:1f85508cf3dd7cc0f7c1e1061fe70e7a26cad7db4df7193d753208f1896c738e
+2019/09/03 21:55:52 existing blob: sha256:6ac892e64b941f376c41f33aa31e39a69bbc457c5b9e436b5ecf451a6d4c651e
+2019/09/03 21:55:52 existing blob: sha256:4ceeca44b38dc9d9eed79b7d4513eb80b32cc03df404fce746dd5c2c113ef3dd
+2019/09/03 21:55:52 existing blob: sha256:c4b50f43bf2754f8c52c7041fb710495a4525646301672d1ad2c32aab020456b
+2019/09/03 21:55:53 pushed blob: sha256:ada53423f53d2d9312dc5410bedb9ce2fccf92cabe5e3cf157f7bc084de8e671
+2019/09/03 21:55:53 pushed blob: sha256:bfa984598b37b909b275581a42dc88509163a75bb511cc6a3064ab92a4edd451
+2019/09/03 21:55:53 pushed blob: sha256:5ae182f690cbfff545300f0cba93e94f063534f4af5a4b4998ae179f129906a6
+2019/09/03 21:55:54 pushed blob: sha256:c44df625fa6828ec9a2a65bd59dc463d6f202ff96a45638b2410e46a04fb1d17
+2019/09/03 21:55:56 pushed blob: sha256:180dd63c519a046602e24974e03a6e841846b8332b51bfde77b9e7f35dc5ab3f
+2019/09/03 21:55:56 000360016411.dkr.ecr.us-west-2.amazonaws.com/jasonwc-jenkinsx-example/yo-backend:0.0.2: digest: sha256:99b3ef866da572515b7f744ea0cb069e28d3744afef12af36d3cb170f35c672c size: 2219
+
+Showing logs for build [32mjasonwc-jenkinsx-example-yo-bac-nsbhb-2[0m stage [32mfrom-build-pack[0m and container [32mstep-build-post-build[0m
+no CVE provider running in the current ** namespace so skip adding image to be analysed
+
+Showing logs for build [32mjasonwc-jenkinsx-example-yo-bac-nsbhb-2[0m stage [32mfrom-build-pack[0m and container [32mstep-promote-changelog[0m
+Converted /workspace/source/charts/yo-backend to an unshallow repository
+Generating change log from git ref 8a9fc9c073339529565ac0001a943a20bf818929 => 74732efbdd4c2886d461006376b6da5020d3d47f
+WARNING: No release found for jasonwc-jenkinsx-example/yo-backend and tag v0.0.2 so creating a new release
+Updated the release information at https://github.com/jasonwc-jenkinsx-example/yo-backend/releases/tag/v0.0.2
+generated: /workspace/source/charts/yo-backend/templates/release.yaml
+Created Release yo-backend-0-0-2 resource in namespace **
+Updating PipelineActivity jasonwc-jenkinsx-example-yo-backend-master-2 with version 0.0.2
+Updated PipelineActivities jasonwc-jenkinsx-example-yo-backend-master-2 with release notes URL: https://github.com/jasonwc-jenkinsx-example/yo-backend/releases/tag/v0.0.2
+
+Showing logs for build [32mjasonwc-jenkinsx-example-yo-bac-nsbhb-2[0m stage [32mfrom-build-pack[0m and container [32mstep-promote-helm-release[0m
+WARNING: No $CHART_REPOSITORY defined so using the default value of: http://jenkins-x-chartmuseum:8080
+Adding missing Helm repo: storage.googleapis.com https://storage.googleapis.com/chartmuseum.jenkins-x.io
+Successfully added Helm repository storage.googleapis.com.
+Adding missing Helm repo: jenkins-x-chartmuseum http://jenkins-x-chartmuseum:8080
+Successfully added Helm repository jenkins-x-chartmuseum.
+WARNING: No $CHART_REPOSITORY defined so using the default value of: http://jenkins-x-chartmuseum:8080
+Uploading chart file yo-backend-0.0.2.tgz to http://jenkins-x-chartmuseum:8080/api/charts
+Received 401 response: {"error":"unauthorized"}
+error: Failed to post chart to http://jenkins-x-chartmuseum:8080/api/charts due to response 401: {"error":"unauthorized"}
+[31m
+Pipeline failed on stage 'from-build-pack' : container 'step-promote-helm-release'. The execution of the pipeline has stopped.[0m
