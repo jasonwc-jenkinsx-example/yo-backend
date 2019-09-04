@@ -21,7 +21,7 @@ namespace '/api/v1' do
 
   get '/yo' do
     response = {
-      message: "yo"
+      message: "yo yo"
     }
 
     response.to_json
