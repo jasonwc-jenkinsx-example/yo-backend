@@ -26,6 +26,14 @@ namespace '/api/v1' do
 
     response.to_json
   end
+
+  get '/hello' do
+    response = {
+      message: "hello"
+    }
+
+    response.to_json
+  end
 end
 
 options "*" do
