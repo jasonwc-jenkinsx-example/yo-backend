@@ -1,0 +1,57 @@
+
+Showing logs for build [32mjasonwc-jenkinsx-example-yo-bac-nzx8h-6[0m stage [32mmeta-pipeline[0m and container [32mstep-credential-initializer-8gxk7[0m
+Unable to retrieve container logs for docker://827ad172a795aa6e749c144f1726e164b447d71a79e5a991900814fedf3f4394
+
+Showing logs for build [32mjasonwc-jenkinsx-example-yo-bac-nzx8h-6[0m stage [32mmeta-pipeline[0m and container [32mstep-working-dir-initializer-b8vrm[0m
+Unable to retrieve container logs for docker://a268e2fce527a9ed0820c012e6ba2fc77ee6b779b4a134bb403a22e56ddcd236
+
+Showing logs for build [32mjasonwc-jenkinsx-example-yo-bac-nzx8h-6[0m stage [32mmeta-pipeline[0m and container [32mstep-place-tools[0m
+Unable to retrieve container logs for docker://b7f52e7d67d8554f2fd223c856f3e5ebdd8251a45b55fc763627e17dcfa9d5de
+
+Showing logs for build [32mjasonwc-jenkinsx-example-yo-bac-nzx8h-6[0m stage [32mmeta-pipeline[0m and container [32mstep-git-source-meta-jasonwc-jenkinsx-example-y-qpp67[0m
+Unable to retrieve container logs for docker://cd365f44af827810076c4f541c6a522edfe849c9e4c811db77962b649b70c554
+
+Showing logs for build [32mjasonwc-jenkinsx-example-yo-bac-nzx8h-6[0m stage [32mmeta-pipeline[0m and container [32mstep-git-merge[0m
+Unable to retrieve container logs for docker://3595e857460165b170eb8a146aa206b7874bed20185aace9b94634d5d0649842
+
+Showing logs for build [32mjasonwc-jenkinsx-example-yo-bac-nzx8h-6[0m stage [32mmeta-pipeline[0m and container [32mstep-merge-pull-refs[0m
+Unable to retrieve container logs for docker://818a6dad51d8586a16eaf9ab73158b889609b880b8f25d45334a465ee0ff0a87
+
+Showing logs for build [32mjasonwc-jenkinsx-example-yo-bac-nzx8h-6[0m stage [32mmeta-pipeline[0m and container [32mstep-create-effective-pipeline[0m
+Unable to retrieve container logs for docker://ca6e811a5d9f90fbe5af334bbbbb596c2de02ed6e413e12c74fc0f442a73a150
+
+Showing logs for build [32mjasonwc-jenkinsx-example-yo-bac-nzx8h-6[0m stage [32mmeta-pipeline[0m and container [32mstep-create-tekton-crds[0m
+Unable to retrieve container logs for docker://3a7714f32f25dd026404d157b596b0df0639d9ef52edca7e42d90ea480f81434
+
+Showing logs for build [32mjasonwc-jenkinsx-example-yo-bac-nzx8h-6[0m stage [32mfrom-build-pack[0m and container [32mstep-credential-initializer-rr7fj[0m
+Unable to retrieve container logs for docker://dec952622c6fcfd1ab1c91de463cbe71686955227d69880abfd1f020fc11fe3c
+
+Showing logs for build [32mjasonwc-jenkinsx-example-yo-bac-nzx8h-6[0m stage [32mfrom-build-pack[0m and container [32mstep-working-dir-initializer-mwllt[0m
+Unable to retrieve container logs for docker://5f9906e43f34982dcb6fbe89e4695111e014272a05235251e0da394c3c82c889
+
+Showing logs for build [32mjasonwc-jenkinsx-example-yo-bac-nzx8h-6[0m stage [32mfrom-build-pack[0m and container [32mstep-place-tools[0m
+Unable to retrieve container logs for docker://94842f313ebd98dc374ba361e9f004451f17577c752bddc5acb48601287c4013
+
+Showing logs for build [32mjasonwc-jenkinsx-example-yo-bac-nzx8h-6[0m stage [32mfrom-build-pack[0m and container [32mstep-git-source-jasonwc-jenkinsx-example-yo-bac-g2qw7[0m
+Unable to retrieve container logs for docker://7b8e250415eff009d030f11a74f35f593b0732403a1152918ecb1b05f7d06630
+
+Showing logs for build [32mjasonwc-jenkinsx-example-yo-bac-nzx8h-6[0m stage [32mfrom-build-pack[0m and container [32mstep-git-merge[0m
+Unable to retrieve container logs for docker://2b490ca5ad1a4fd59b6b0a09c53c65e055897a3e7fd0002ebf72d34648019ad5
+
+Showing logs for build [32mjasonwc-jenkinsx-example-yo-bac-nzx8h-6[0m stage [32mfrom-build-pack[0m and container [32mstep-setup-jx-git-credentials[0m
+Unable to retrieve container logs for docker://be7818d0c1ff34a551c9c9957ea61b14ff078c4ec3fe2e9c286ef9204f7d2011
+
+Showing logs for build [32mjasonwc-jenkinsx-example-yo-bac-nzx8h-6[0m stage [32mfrom-build-pack[0m and container [32mstep-build-container-build[0m
+Unable to retrieve container logs for docker://7f5d2a37fb21734af07a116713ce1fbfd64367b763767fc6c801479cf2b0245f
+
+Showing logs for build [32mjasonwc-jenkinsx-example-yo-bac-nzx8h-6[0m stage [32mfrom-build-pack[0m and container [32mstep-build-post-build[0m
+Unable to retrieve container logs for docker://bc5acc3f258e0e58e2b6f81100bf3d73097511dbeb63fd899c29e273b8f572f0
+
+Showing logs for build [32mjasonwc-jenkinsx-example-yo-bac-nzx8h-6[0m stage [32mfrom-build-pack[0m and container [32mstep-promote-changelog[0m
+Unable to retrieve container logs for docker://c26ba7725a84e3574177760aaa282635986ac17507cedf1b7de0bd9d73896aab
+
+Showing logs for build [32mjasonwc-jenkinsx-example-yo-bac-nzx8h-6[0m stage [32mfrom-build-pack[0m and container [32mstep-promote-helm-release[0m
+Unable to retrieve container logs for docker://a90591988e661886e2e76fa37c39bb4c56ac4f390b9db66f6747a07d43566163
+
+Showing logs for build [32mjasonwc-jenkinsx-example-yo-bac-nzx8h-6[0m stage [32mfrom-build-pack[0m and container [32mstep-promote-jx-promote[0m
+Unable to retrieve container logs for docker://32f5f9ac415c0cfa332c2a8f3e5e69e7746fe3d89f1d21e85ac7aeca6732a069
